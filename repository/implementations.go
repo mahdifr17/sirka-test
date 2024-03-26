@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/sample-tech-test/entity"
+	"github.com/mahdifr17/sirka-test/entity"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

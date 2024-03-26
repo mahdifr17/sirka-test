@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/sample-tech-test/entity"
+	"github.com/mahdifr17/sirka-test/entity"
 )
 
 type RepositoryInterface interface {

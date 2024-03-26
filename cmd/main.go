@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/sample-tech-test/handler"
-	"github.com/sample-tech-test/repository"
-	"github.com/sample-tech-test/usecase"
+	"os"
+
+	"github.com/mahdifr17/sirka-test/handler"
+	"github.com/mahdifr17/sirka-test/repository"
+	"github.com/mahdifr17/sirka-test/usecase"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -19,8 +21,8 @@ func main() {
 }
 
 func newServer() *handler.Server {
-	// dbDsn := os.Getenv("DATABASE_URL")
-	dbDsn := "postgres://postgres:cicilaja@localhost:5432/test_case?sslmode=disable"
+	dbDsn := os.Getenv("DATABASE_URL")
+	// dbDsn := "postgres://postgres:cicilaja@localhost:5432/test_case?sslmode=disable"
 
 	var repo repository.RepositoryInterface = repository.NewRepository(repository.NewRepositoryOptions{
 		Dsn: dbDsn,

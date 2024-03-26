@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/gofiber/fiber/v2/log"
-	"github.com/sample-tech-test/entity"
-	"github.com/sample-tech-test/repository"
+	"github.com/mahdifr17/sirka-test/entity"
+	"github.com/mahdifr17/sirka-test/repository"
 )
 
 type UseCase struct {

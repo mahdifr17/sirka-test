@@ -3,7 +3,7 @@ package usecase
 import (
 	"context"
 
-	"github.com/sample-tech-test/entity"
+	"github.com/mahdifr17/sirka-test/entity"
 )
 
 type UsecaseInterface interface {

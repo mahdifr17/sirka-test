@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/sample-tech-test/usecase"
+	"github.com/mahdifr17/sirka-test/usecase"
 )
 
 type Server struct {
